@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Great Vibes", cursive;
+}
+
+header {
+    border-bottom: solid 2px pink;
+    padding: 20px;
+    font-size: 32px;
+    color:pink
+}
+
+section{
+    background: #672828 ;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+    .chamada-texto {
+        margin-right: 20px;
+    }
+
+    h1 { 
+        font-size: 40px;
+    }
+
+    img {
+        height: 200px;
+    }
+
+    /* código omitido */
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
